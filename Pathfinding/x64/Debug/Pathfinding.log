@@ -1,0 +1,32 @@
+﻿  Vector2.cpp
+  Map.cpp
+c:\users\irving\desktop\assignment2_irving_waisman\lib\sdl2-2.0.7\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\irving\desktop\assignment2_irving_waisman\lib\sdl2-2.0.7\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+  main.cpp
+c:\users\irving\desktop\assignment2_irving_waisman\pathfinding\map.h(6): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+  c:\users\irving\desktop\assignment2_irving_waisman\lib\sdl2-2.0.7\include\sdl_surface.h(70): note: see declaration of 'SDL_Surface'
+  Graph.cpp
+c:\users\irving\desktop\assignment2_irving_waisman\pathfinding\graph.cpp(47): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\irving\desktop\assignment2_irving_waisman\pathfinding\graph.cpp(48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  AStar.cpp
+c:\users\irving\desktop\assignment2_irving_waisman\lib\sdl2-2.0.7\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\irving\desktop\assignment2_irving_waisman\lib\sdl2-2.0.7\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+  Generating Code...
+     Creating library C:\Users\Irving\Desktop\Assignment2_Irving_Waisman\x64\Debug\Pathfinding.lib and object C:\Users\Irving\Desktop\Assignment2_Irving_Waisman\x64\Debug\Pathfinding.exp
+AStar.obj : error LNK2019: unresolved external symbol SDL_CreateThread referenced in function "public: void __cdecl AStar::Search(class Node *,class Node *)" (?Search@AStar@@QEAAXPEAVNode@@0@Z)
+AStar.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function "public: static int __cdecl AStar::SearchThread(void *)" (?SearchThread@AStar@@SAHPEAX@Z)
+main.obj : error LNK2001: unresolved external symbol SDL_Delay
+main.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_GetWindowSurface referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_UpdateWindowSurface referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+Map.obj : error LNK2019: unresolved external symbol SDL_MapRGB referenced in function "public: void __cdecl Map::DrawMarker(struct SDL_Surface *,enum Map::MarkType,class Vector2)" (?DrawMarker@Map@@QEAAXPEAUSDL_Surface@@W4MarkType@1@VVector2@@@Z)
+Map.obj : error LNK2019: unresolved external symbol SDL_FillRect referenced in function "public: void __cdecl Map::DrawMarker(struct SDL_Surface *,enum Map::MarkType,class Vector2)" (?DrawMarker@Map@@QEAAXPEAUSDL_Surface@@W4MarkType@1@VVector2@@@Z)
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+..\lib\SDL2-2.0.7\lib\x86\SDL2.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+..\lib\SDL2-2.0.7\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Irving\Desktop\Assignment2_Irving_Waisman\x64\Debug\Pathfinding.exe : fatal error LNK1120: 13 unresolved externals

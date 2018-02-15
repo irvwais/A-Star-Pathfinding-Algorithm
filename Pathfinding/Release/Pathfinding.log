@@ -1,0 +1,14 @@
+﻿  AStar.cpp
+c:\users\irving\documents\humber\game302 ai\assignments\game302_assignment2\game302_assignment2\lib\sdl2-2.0.7\include\SDL_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\irving\documents\humber\game302 ai\assignments\game302_assignment2\game302_assignment2\lib\sdl2-2.0.7\include\SDL_surface.h(69): note: see declaration of 'SDL_Surface'
+  Map.cpp
+c:\users\irving\documents\humber\game302 ai\assignments\game302_assignment2\game302_assignment2\lib\sdl2-2.0.7\include\SDL_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\irving\documents\humber\game302 ai\assignments\game302_assignment2\game302_assignment2\lib\sdl2-2.0.7\include\SDL_surface.h(69): note: see declaration of 'SDL_Surface'
+     Creating library C:\Users\Irving\Documents\Humber\Game302 AI\Assignments\Game302_Assignment2\Game302_Assignment2\Release\Pathfinding.lib and object C:\Users\Irving\Documents\Humber\Game302 AI\Assignments\Game302_Assignment2\Game302_Assignment2\Release\Pathfinding.exp
+  Generating code
+  494 of 774 functions (63.8%) were compiled, the rest were copied from previous compilation.
+    121 functions were new in current compilation
+    64 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Pathfinding.vcxproj -> C:\Users\Irving\Documents\Humber\Game302 AI\Assignments\Game302_Assignment2\Game302_Assignment2\Release\Pathfinding.exe
+  Pathfinding.vcxproj -> C:\Users\Irving\Documents\Humber\Game302 AI\Assignments\Game302_Assignment2\Game302_Assignment2\Release\Pathfinding.pdb (Full PDB)
